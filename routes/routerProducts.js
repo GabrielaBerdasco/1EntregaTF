@@ -3,6 +3,7 @@ import { Router } from 'express'
 
 import Container from '../controllers/container.js'
 import { products as prod } from '../controllers/listProducts.js'
+import { login } from '../middleware/middlewareLogin.js'
 
 const routerProducts = Router()
 
